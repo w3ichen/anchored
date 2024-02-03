@@ -1,10 +1,14 @@
-import { Typography } from "@mui/material";
+import { Container, Typography } from "@mui/material";
 import Page from "../components/Page";
 
 export default function FindFriends() {
   return (
     <Page>
-      <Typography variant="h1">Find Friends</Typography>
+      <Container>
+        <Typography variant="overline" fontWeight="bold" fontSize="12pt">
+          Find New Friends
+        </Typography>
+      </Container>
     </Page>
   );
 }

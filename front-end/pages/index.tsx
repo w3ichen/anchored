@@ -1,4 +1,5 @@
 import { Container, styled } from "@mui/material";
+import Page from "../components/Page";
 
 export default function Home() {
   const Root = styled("div")({
@@ -6,7 +7,7 @@ export default function Home() {
     flexDirection: "column",
     alignItems: "center",
     justifyContent: "center",
-    height: "100vh",
+    height: "100%",
     backgroundColor: "#1d3144",
     margin: 0,
     padding: "10%",
@@ -15,10 +16,12 @@ export default function Home() {
   });
 
   return (
-    <Root>
-      <img src="/logo.png" alt="Anchored Logo" width="100px" />
-      <h1>ANCHORED</h1>
-      <h2>Friendships on a Deeper Level</h2>
-    </Root>
+    <Page>
+      <Root>
+        <img src="/logo.png" alt="Anchored Logo" width="100px" />
+        <h1>ANCHORED</h1>
+        <h2>Friendships on a Deeper Level</h2>
+      </Root>
+    </Page>
   );
 }
