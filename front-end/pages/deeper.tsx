@@ -1,10 +1,14 @@
-import { Typography } from "@mui/material";
+import { Container, Typography } from "@mui/material";
 import Page from "../components/Page";
 
 export default function DivingDeeper() {
   return (
     <Page>
-      <Typography variant="h1">Diving Deeper</Typography>
+      <Container>
+        <Typography variant="overline" fontWeight="bold" fontSize="12pt">
+          Diving Deeper
+        </Typography>
+      </Container>
     </Page>
   );
 }
