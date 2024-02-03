@@ -9,14 +9,15 @@ export default function Home() {
     height: "100vh",
     backgroundColor: "#1d3144",
     margin: 0,
-    padding: 0,
+    padding: "10%",
     color: "white",
+    textAlign: "center",
   });
 
   return (
     <Root>
       <img src="/logo.png" alt="Anchored Logo" width="100px" />
-      <h1>Anchored</h1>
+      <h1>ANCHORED</h1>
       <h2>Friendships on a Deeper Level</h2>
     </Root>
   );
