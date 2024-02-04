@@ -8,9 +8,11 @@ interface Props {
 
 function Header() {
   return (
-    <Box textAlign="center" sx={{ bgcolor: "#f3fafd", p: 1 }}>
-      <img src="full_logo.png" height="50px" />
-    </Box>
+    <Link href="/" passHref>
+      <Box textAlign="center" sx={{ bgcolor: "#f3fafd", p: 1 }}>
+        <img src="full_logo.png" height="50px" />
+      </Box>
+    </Link>
   );
 }
 
