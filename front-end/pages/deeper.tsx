@@ -136,7 +136,13 @@ function SetupDialog({
         </LocalizationProvider>
 
         <br />
-        <Button variant="contained" color="primary" fullWidth sx={{ mt: 2 }}>
+        <Button
+          variant="contained"
+          color="primary"
+          fullWidth
+          sx={{ mt: 2 }}
+          onClick={onClose}
+        >
           Send
         </Button>
       </DialogContent>
@@ -235,6 +241,8 @@ export default function DiveDeeper() {
           backgroundRepeat: "no-repeat",
           height: "100%",
           width: "100%",
+          overflowY: "auto",
+          paddingBottom: "100px",
         }}
       >
         <Container>
@@ -255,7 +263,12 @@ export default function DiveDeeper() {
       </Box>
       <Fab
         variant="extended"
-        sx={{ position: "absolute", bottom: "70px", left: "calc(50% - 69px)" }}
+        sx={{
+          position: "absolute",
+          bottom: "70px",
+          left: "calc(50% - 70px)",
+          pr: 2,
+        }}
         size="small"
         color="secondary"
       >

@@ -18,6 +18,7 @@ jobs:
           cache: npm
 
       - name: Build
+        working-directory: ./front-end # Specify the working directory here
         run: |
           npm ci
           npm run build
@@ -27,4 +28,4 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./out
+          publish_dir: ./front-end/out # Make sure the publish_dir is correct relative to your repo structure
