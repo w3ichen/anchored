@@ -33,7 +33,7 @@ import Page from "../components/Page";
 const DEMO_ACTIVITIES = [
   {
     name: "Manush",
-    img: "/manush.jpg",
+    img: "manush.jpg",
     streak: 254,
     activities: [
       {
@@ -53,7 +53,7 @@ const DEMO_ACTIVITIES = [
   },
   {
     name: "Weichen",
-    img: "/weichen.png",
+    img: "weichen.png",
     streak: 20,
     activities: [
       {
@@ -69,7 +69,7 @@ const DEMO_ACTIVITIES = [
   },
   {
     name: "Eleni",
-    img: "/eleni.png",
+    img: "eleni.png",
     streak: 198,
     activities: [
       {
@@ -85,7 +85,7 @@ const DEMO_ACTIVITIES = [
   },
   {
     name: "Shah",
-    img: "/shah.png",
+    img: "shah.png",
     streak: 11,
     activities: [
       {
@@ -235,7 +235,7 @@ export default function DiveDeeper() {
       <Box
         sx={{
           backgroundImage:
-            "url('/ocean_bottom.jpg'), linear-gradient(to bottom, #c9e1eb, #c9e1eb)",
+            "url('ocean_bottom.jpg'), linear-gradient(to bottom, #c9e1eb, #c9e1eb)",
           backgroundSize: "contain, cover",
           backgroundPosition: "bottom, center",
           backgroundRepeat: "no-repeat",

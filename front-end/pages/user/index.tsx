@@ -4,7 +4,7 @@ import Page from "../../components/Page";
 
 const ProfilePicture = styled(Container)({
   // backgroundImage: "url('https://source.unsplash.com/random/?profile_image')",
-  backgroundImage: "url('/logan_profile.jpg')",
+  backgroundImage: "url('logan_profile.jpg')",
   backgroundSize: "cover",
   backgroundPosition: "center",
   objectFit: "cover",
