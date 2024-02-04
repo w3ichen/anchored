@@ -38,7 +38,7 @@ function Navbar() {
         bgcolor: "#f3fafd",
       }}
     >
-      <NavIcon href="/find" img="nav_steer.png" />
+      {/* <NavIcon href="/find" img="nav_steer.png" /> */}
       <NavIcon href="/deeper" img="nav_anchor.png" />
       <NavIcon href="/user" img="nav_profile.png" />
     </Toolbar>
