@@ -9,7 +9,7 @@ interface Props {
 function Header() {
   return (
     <Box textAlign="center" sx={{ bgcolor: "#f3fafd", p: 1 }}>
-      <img src="/full_logo.png" height="50px" />
+      <img src="full_logo.png" height="50px" />
     </Box>
   );
 }
@@ -38,9 +38,9 @@ function Navbar() {
         bgcolor: "#f3fafd",
       }}
     >
-      {/* <NavIcon href="/find" img="nav_steer.png" /> */}
-      <NavIcon href="/deeper" img="nav_anchor.png" />
-      <NavIcon href="/user" img="nav_profile.png" />
+      {/* <NavIcon href="/anchored/find" img="nav_steer.png" /> */}
+      <NavIcon href="/anchored/deeper" img="nav_anchor.png" />
+      <NavIcon href="/anchored/user" img="nav_profile.png" />
     </Toolbar>
   );
 }
