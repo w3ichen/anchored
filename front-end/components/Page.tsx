@@ -46,7 +46,7 @@ function Navbar() {
 }
 export default function Page({ children }: Props) {
   return (
-    <Stack direction="column" sx={{ height: "100vh" }}>
+    <Stack direction="column" sx={{ height: "100%" }}>
       <Header />
       <Box height="100%" sx={{ overflowX: "hidden", overflowY: "auto" }}>
         {children}
