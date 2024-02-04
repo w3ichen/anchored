@@ -1,4 +1,4 @@
-import { Box, Button, Stack, Toolbar, Typography } from "@mui/material";
+import { Box, Button, Stack, Toolbar } from "@mui/material";
 import Link from "next/link";
 import { ReactNode } from "react";
 
@@ -38,9 +38,9 @@ function Navbar() {
         bgcolor: "#f3fafd",
       }}
     >
-      {/* <NavIcon href="/anchored/find" img="nav_steer.png" /> */}
-      <NavIcon href="/anchored/deeper" img="nav_anchor.png" />
-      <NavIcon href="/anchored/user" img="nav_profile.png" />
+      {/* <NavIcon href="/find" img="nav_steer.png" /> */}
+      <NavIcon href="/deeper" img="nav_anchor.png" />
+      <NavIcon href="/user" img="nav_profile.png" />
     </Toolbar>
   );
 }
