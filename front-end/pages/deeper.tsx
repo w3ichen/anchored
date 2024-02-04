@@ -1,4 +1,5 @@
 import {
+  Add,
   Edit,
   ExpandLess,
   ExpandMore,
@@ -15,6 +16,7 @@ import {
   Dialog,
   DialogContent,
   DialogTitle,
+  Fab,
   List,
   ListItem,
   ListItemAvatar,
@@ -134,7 +136,7 @@ function SetupDialog({
         </LocalizationProvider>
 
         <br />
-        <Button variant="contained" color="primary" fullWidth>
+        <Button variant="contained" color="primary" fullWidth sx={{ mt: 2 }}>
           Send
         </Button>
       </DialogContent>
@@ -151,7 +153,6 @@ function User({ user }: { user: any }) {
     <>
       <CheckInDialog open={openCheckIn} onClose={() => setOpenCheckIn(false)} />
       <SetupDialog open={openSetup} onClose={() => setOpenSetup(false)} />
-
       <ListItemButton onClick={() => setExpand(!expand)}>
         <ListItemAvatar>
           <Avatar src={user.img} />
@@ -252,6 +253,15 @@ export default function DiveDeeper() {
           ))}
         </Container>
       </Box>
+      <Fab
+        variant="extended"
+        sx={{ position: "absolute", bottom: "70px", left: "calc(50% - 69px)" }}
+        size="small"
+        color="secondary"
+      >
+        <Add sx={{ mr: 1 }} />
+        Add friend
+      </Fab>
     </Page>
   );
 }
