@@ -114,7 +114,7 @@ function CheckInDialog({
         </Typography>
         <Sensors sx={{ fontSize: "100pt", color: "grey" }} />
         <br />
-        <img src="/treasure_chest.png" width="200px" />
+        <img src="treasure_chest.png" width="200px" />
       </DialogContent>
     </Dialog>
   );

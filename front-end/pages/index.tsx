@@ -18,7 +18,7 @@ export default function Home() {
   return (
     <Page>
       <Root>
-        <img src="/logo.png" alt="Anchored Logo" width="100px" />
+        <img src="logo.png" alt="Anchored Logo" width="100px" />
         <h1>ANCHORED</h1>
         <h2>Friendships on a Deeper Level</h2>
       </Root>
