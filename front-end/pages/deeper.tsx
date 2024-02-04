@@ -52,6 +52,22 @@ const DEMO_ACTIVITIES = [
     ],
   },
   {
+    name: "Eleni",
+    img: "eleni.png",
+    streak: 198,
+    activities: [
+      {
+        name: "Visit the zoo (Promoted)",
+        points: 50,
+        date: "Tomorrow 4pm",
+      },
+      {
+        name: "Take a walk",
+        points: 20,
+      },
+    ],
+  },
+  {
     name: "Weichen",
     img: "weichen.png",
     streak: 20,
@@ -68,28 +84,16 @@ const DEMO_ACTIVITIES = [
     ],
   },
   {
-    name: "Eleni",
-    img: "eleni.png",
-    streak: 198,
-    activities: [
-      {
-        name: "Visit the zoo (Promoted)",
-        points: 10,
-        date: "Tomorrow 3pm",
-      },
-      {
-        name: "Take a walk",
-        points: 5,
-      },
-    ],
-  },
-  {
     name: "Shah",
     img: "shah.png",
     streak: 11,
     activities: [
       {
-        name: "Go for coffee",
+        name: "Go rock climbing",
+        points: 30,
+      },
+      {
+        name: "Make a quick call",
         points: 10,
       },
     ],
